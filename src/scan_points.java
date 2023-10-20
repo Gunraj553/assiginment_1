@@ -1,3 +1,4 @@
+// This class is used to scan points and make a new object of each x,y coordinates.
 import java.util.Scanner;
 public class scan_points {
     public static Point  new_point(Point input){

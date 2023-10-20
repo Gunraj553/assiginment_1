@@ -1,3 +1,4 @@
+// This class stores the points of the triangle. I have used getter and setters for storing and fetching the data.
 public class Point {
     double x;
     double y;

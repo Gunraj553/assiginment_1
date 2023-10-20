@@ -1,3 +1,5 @@
+// This class  stores each point of a triangle , calculates the perimeter and also checks whether the triangle is
+// is isosceles or not.
 public class Triangle {
    Point side_1;
    Point side_2;
