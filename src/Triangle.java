@@ -32,7 +32,7 @@ public class Triangle {
         double length_1 = calaculate_length.find_length(side_1,side_2);
         double length_2 = calaculate_length.find_length(side_2,side_3);
         double length_3 = calaculate_length.find_length(side_3,side_1);
-        double total_length = length_1 + length_2+length_3;
+        double total_length = length_1 + length_2 + length_3;
 
         return  total_length;
 
@@ -40,16 +40,13 @@ public class Triangle {
 
     public boolean isco_tri(){
 
-        boolean is_isco = false;
+
         double length_1 = calaculate_length.find_length(side_1,side_2);
         double length_2 = calaculate_length.find_length(side_2,side_3);
         double length_3 = calaculate_length.find_length(side_3,side_1);
 
-        if (length_1 == length_2 || length_2 == length_3 || length_3 == length_1){
-            is_isco = true;
-        }
+       return length_1 == length_2 || length_2 == length_3 || length_3 == length_1 ;
 
-        return is_isco;
 
     }
 }
